@@ -1,0 +1,125 @@
+@media screen and (max-width: 1150px) {
+    .section_4_bottom_container {
+        max-width: 612px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+    }
+
+    .section_2_bottom_container {
+        max-width: 202px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+    .section_2_card strong {
+        display: none;
+    }
+
+    .section_2_card p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #header svg {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .section_4_card_1 {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section_4_top_container {
+        text-align: left;
+    }
+    .section_4_card_1 {
+        max-width: 450px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section_4_card_1 {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section_4_card_1 {
+        max-width: 300px;
+    }
+
+    .section_4_top_container {
+        max-width: 300px;
+    }
+
+    .header_main_container {
+        max-width: 300px;
+        margin-left: 0;
+        margin-right: auto;
+        align-items: start;
+    }
+
+    .header_main_container h4 {
+        line-height: 40px;
+    }
+
+    .header_main_container h1 {
+        font-size: 4rem !important; 
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .section_4_card_1 {
+        max-width: 250px;
+    }
+
+    .header_main_container h1 {
+        font-size: 3rem !important; 
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .section_4_card_1 {
+        max-width: 220px;
+    }
+
+    .section_3_main_container h2 {
+        font-size: 3rem !important;
+    }
+
+    .header_main_container {
+        padding-top: 150px !important;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .section_4_card_1 {
+        max-width: 180px;
+    }
+
+    .header_main_container h1 {
+        font-size: 2rem !important;
+    }
+
+    .header_main_container i {
+        font-size: 1.5rem !important;
+    }
+
+    .header_main_container button {
+        width: 100px !important;
+    }
+
+    .section_3_main_container h2 {
+        font-size: 2rem !important;
+    }
+}
+
